@@ -1,0 +1,103 @@
+<!-- start: TOP NAVBAR -->
+				<header class="navbar navbar-light bg-faded">
+					<!-- start: NAVBAR HEADER -->
+					<div class="navbar-header">
+						<button href="javascript:void(0)" class="menu-mobile-toggler btn no-radius pull-left hidden-md hidden-lg" id="horizontal-menu-toggler" data-toggle="collapse" data-target=".horizontal-menu">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="index.php"> <img src="assets/images/logo2.png" alt="Trulo"/> </a>
+						<a class="navbar-brand navbar-brand-collapsed" href="index.php"> <img src="assets/images/logo-collapsed2.png" alt="" /> </a>
+
+						<!--<button class="btn pull-right menu-toggler visible-xs-block" id="menu-toggler" data-toggle="collapse" href=".navbar-collapse" data-toggle-class="menu-open">
+							<i class="fa fa-folder closed-icon"></i><i class="fa fa-folder-open open-icon"></i><small><i class="fa fa-caret-down margin-left-5"></i></small>
+						</button>-->
+					</div>
+					<!-- end: NAVBAR HEADER -->
+					<!-- start: NAVBAR COLLAPSE -->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-left hidden-sm hidden-xs">
+							<li class="sidebar-toggler-wrapper">
+								<div>
+									<button href="javascript:void(0)" class="btn sidebar-toggler visible-md visible-lg">
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+							</li>
+							<li>
+								<a href="#" class="toggle-fullscreen right"> <i class="fa fa-expand expand-off"></i><i class="fa fa-compress expand-on"></i></a>
+							</li>
+							 
+						</ul>
+						 
+						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+						<div class="close-handle visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
+							<div class="arrow-left"></div>
+							<div class="arrow-right"></div>
+						</div>
+						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+					</div>
+				
+					<!-- end: NAVBAR COLLAPSE -->
+				</header>
+			
+				<!-- start: HORIZONTAL MENU -->
+				<div class="navbar navbar-default horizontal-menu collapse">
+					<div class="horizontal-menu-wrapper">
+						<div class="horizontal-nav-container">
+							<ul class="nav navbar-nav no-border">
+								<li class="active">
+									<a [routerLink]="['/']" href="#"> <div class="lettericon" data-text="Inicio" data-size="sm" data-char-count="1" data-color="auto"></div> <span> Inicio </span> </a>
+								</li>
+								<li class="dropdown">
+									<a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"> <div class="lettericon" data-text="Acciones" data-size="sm" data-char-count="1" data-color="auto"></div> <span> Acciones</span> <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a [routerLink]="['/agregarusuario']" href="#"> <span> Agregar usuario</span> </a>
+										</li>
+										<li>
+											<a [routerLink]="['/usuarios']" href="#"> <span> Ver usuarios </span> </a>
+										</li>
+										<li>
+											<a [routerLink]="['/agregarcliente']" > <span> Agregar cliente</span> </a>
+										</li>
+										<li>
+											<a [routerLink]="['/clientes']" href="#"> <span> Ver clientes </span> </a>
+										</li>
+										<li>
+											<a [routerLink]="['/agregarpdf']" href="#"> <span> Agregar Producto </span> </a>
+										</li>
+										<li>
+											<a [routerLink]="['/catalogo']" href="#"> <span> Ver catálogo </span> </a>
+										</li>
+										<!--<li>
+											<a href="historial.php"> <span> Historial</span> </a>
+										</li>-->
+
+									</ul>
+								</li>
+								 
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle nav-user-wrapper" data-toggle="dropdown"> <img alt="" src="assets/images/avatar-1.jpg"> <span>Fernando</span> <span class="caret"></span> </a>
+
+									<ul class="dropdown-menu pull-right animated fadeInRight">
+										
+										<li class="divider"></li>
+										<li>
+											<a href="login.php">Salir</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
+						<div class="close-handle visible-xs-block visible-sm-block menu-toggler" data-toggle="collapse" data-target=".horizontal-menu">
+							<div class="arrow-left"></div>
+							<div class="arrow-right"></div>
+						</div>
+						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
+					</div>
+				</div>
+				<!-- end: HORIZONTAL MENU -->
+				<!-- end: TOP NAVBAR -->

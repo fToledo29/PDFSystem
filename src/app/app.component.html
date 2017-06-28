@@ -1,0 +1,30 @@
+
+<div id="app" class="lyt-4">
+            <sidebar-component></sidebar-component>
+	        <!--<?php include("php/sidebar.php"); ?>-->
+			<div class="app-content">
+	<!-- start: NAVBAR -->			
+				<navbar-component> </navbar-component>
+                <!--<?php include("php/navbar.php"); ?>-->
+	<!-- end: NAVBAR -->
+				<div class="main-content" >
+					<div class="wrap-content container" id="container">
+ 	                    <!-- start: CONTENT -->
+						 <!--<content-component></content-component>-->
+                        <router-outlet></router-outlet>
+						<!--<?php include("php/content.php"); ?>-->
+	                    <!-- end: CONTENT -->
+					</div>
+				</div>
+			</div>
+	<!-- start: FOOTER -->
+			
+	    <!--<?php include("php/footer.php"); ?>	-->
+	<!-- end: FOOTER -->
+		
+</div>
+<footer-component></footer-component>	
+    <!-- start: SCRIPTS -->
+<scripts-component></scripts-component>
+	    <!--<?php include("php/scripts.php"); ?>-->
+	<!-- end: SCRIPTS -->

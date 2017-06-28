@@ -1,0 +1,94 @@
+<!-- start: BREADCRUMB -->
+						<div class="breadcrumb-wrapper">
+							<h4 class="mainTitle no-margin">Usuarios</h4>
+							 
+						</div>
+						<!-- end: BREADCRUMB -->
+
+<!-- start: RESPONSIVE TABLE -->
+						<div class="container-fluid container-fullw">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="panel panel-white">
+										<div class="panel-body">
+											 
+											<div class="table-responsive">
+												<table class="table table-bordered table-hover" id="sample-table-1">
+													<thead>
+														<tr>
+															<th class="center"> Nombre del PDF</th>
+															<th class="center">Marca</th>
+															<th class="center">Asignado</th>
+															<th class="center">Status</th>
+															<th class="center">Acciones</th>
+															<th class="center">Habilitar / No Habilitar</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td class="center"> <i class="fa fa-file"></i>&nbsp;&nbsp;mexico.pdf</td>
+															<td class="center">Mr.María</td>
+															<td class="center">Carlos, Ismael, Fernando</td>
+															<td class="center"><span class="label label-sm btn-green">Activo</span></td>
+															<td class="center">
+                                                                <a routerLink="['/agregarpdf']" href="#">
+                                                                    <span class="btn btn-sm btn-default">
+                                                                        <i class="fa fa-edit"></i>
+                                                                        &nbsp;&nbsp;Editar
+                                                                    </span>
+                                                                </a>
+                                                                <span class="btn btn-sm btn-default" data-toggle="modal" data-target="#eliminar_pdf">
+                                                                    <i class="fa fa-trash"></i>
+                                                                    &nbsp;&nbsp;Eliminar
+                                                                </span>
+															<td class="center"><input type="checkbox" class="js-switch light" checked />
+                                                                <small class="text-muted">
+                                                                    <br />
+                                                                </small>
+                                                            </td> 
+														</tr>
+
+														
+														
+														 
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- end: RESPONSIVE TABLE -->
+
+
+							<!-- Default Modal -->
+												<div class="modal fade" id="eliminar_pdf" tabindex="-1" role="dialog" aria-labelledby="eliminar_pdf" aria-hidden="true">
+													<div class="modal-dialog">
+														<div class="modal-content">
+															<div class="modal-header">
+																<button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+																	<span aria-hidden="true">&times;</span>
+																</button>
+															
+															</div>
+															<div class="modal-body">
+																	<h4 class="modal-title" id="enviar_acceso">¿Eliminar PDF?</h4>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-red btn-o" data-dismiss="modal">
+																	Cancelar
+																</button>
+																<button type="button" class="btn btn-green">
+																	Eliminar
+																</button>
+															</div>
+														</div>
+													</div>
+												</div>
+
+
+
+
+
+						
